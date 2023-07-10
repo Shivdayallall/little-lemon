@@ -1,5 +1,5 @@
 body {
-    background-color: darkgray;
+    background-color: #1A5D1A;
     font-family: cursive;
     text-transform: capitalize;
 
@@ -48,7 +48,7 @@ header {
     align-items: center;
     padding: 20px;
     margin: 10px;
-    background-color: teal;
+    background-color: #FAE392;
     border-radius: 15px;
 
 }
@@ -85,13 +85,26 @@ header {
 main {
     display: flex;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding-top: 100px;
     margin-left: 10em;
 }
 
+article {
+    background-color: cadetblue;
+    border-radius: 20px;
+    width: 30em;
+    height: 20em;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    flex-basis: 30%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
 footer {
-    background-color: teal;
+    background-color: #FAE392;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
